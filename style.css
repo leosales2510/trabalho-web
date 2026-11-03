@@ -1,0 +1,49 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Flexbox ensinado pelo professor para centralização[cite: 53] */
+    margin: 0;
+}
+
+.kiddos-card {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.btn-kiddos {
+    background-color: #ffca28;
+    color: #333;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-kiddos:hover {
+    background-color: #ffb300;
+}
+
+.text-kiddos-blue {
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+.bg-light-gray {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 15px;
+}
